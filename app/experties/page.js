@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import stack from "../assets/stack.svg";
 import reactLogo from "../assets/reactLogo.png";
-import bootstrap from "../assets/bootstrap.png";
+import bootstrap from "../assets/bootStrap.png";
 import tailwind from "../assets/tailwind.png";
 import python from "../assets/python.png";
 import mongo from "../assets/mongo.png";
