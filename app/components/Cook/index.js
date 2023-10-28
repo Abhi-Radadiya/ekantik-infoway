@@ -17,7 +17,7 @@ const Cook = () => {
 
                     <div className="col-span-6 flex flex-col justify-center">
                         <Fade direction={"up"} delay={400} cascade damping={1e-1} triggerOnce={true}>
-                            <h2 className="text-pink text-lg font-normal mb-3 ls-51 uppercase text-start">Let's build together</h2>
+                            <h2 className="text-pink text-lg font-normal mb-3 ls-51 uppercase text-start">Let us build together</h2>
                         </Fade>
                         <Fade direction={"up"} delay={800} cascade damping={1e-1} triggerOnce={true}>
                             <h3 className="text-3xl lg:text-5xl font-semibold text-black text-start">Creating together with the experts.</h3>
