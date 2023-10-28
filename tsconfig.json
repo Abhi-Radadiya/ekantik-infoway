@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/Work/index.js", "app/components/Newsletter/Newsletter.js", "app/components/Gallery/index.js", "app/components/Navbar/Signindialog.js", "app/components/Navbar/Navbar.js", "app/components/Navbar/index.js", "app/components/Navbar/Drawerdata.js", "app/components/Navbar/Drawer.js", "app/components/Navbar/Contactus.js", "app/components/Gallery/index.js", "app/components/Footer/Footer.js", "app/components/Expert/index.js", "app/components/Cook/index.js", "app/components/Banner/index.js", "app/page.js", "app/layout.js"],
+  "exclude": ["node_modules"]
+}
